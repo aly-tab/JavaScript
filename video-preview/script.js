@@ -1,8 +1,8 @@
-function playVid(video) {
-        video.play();
-        video.muted = true;
+function playVid(vid) {
+        vid.play();
+        vid.muted = true;
 }
 
-function pauseVid(video) {
-    video.pause();
+function pauseVid(vid) {
+    vid.pause();
 }
