@@ -74,7 +74,7 @@ function fibonacciArray(n) {
     return fibArr;
 }
    
-var result = fibonacciArray(16);
+var result = fibonacciArray(10);
 console.log(result); 
 
 
