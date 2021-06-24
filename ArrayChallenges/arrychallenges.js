@@ -76,5 +76,3 @@ function fibonacciArray(n) {
    
 var result = fibonacciArray(10);
 console.log(result); 
-
-
