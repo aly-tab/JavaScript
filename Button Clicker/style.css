@@ -8,7 +8,7 @@ body {
 }
 
 #nav {
-    width: 72%;
+    width: 65%;
     margin: 0 auto 50px auto;
     padding: 0 50px;
     height: 100px;
@@ -45,10 +45,10 @@ h1 {
 }
 
 #container {
-    width: 77%;
+    width: 70%;
     margin: 0 auto;
     height: 800px;
-    padding: 30px 5%;
+    padding: 30px 0;
     display: flex;
 }
 
@@ -100,7 +100,7 @@ h1 {
 .def {
     display: flex;
     align-self: center;
-    font-size: 2em;
+    font-size: 1.9em;
     padding: 0 100px;
 }
 
@@ -109,7 +109,7 @@ h1 {
 }
 
 .col-2 {
-    width: 27%;
+    width: 29%;
 }
 
 .add {
