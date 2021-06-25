@@ -1,26 +1,9 @@
-var x = document.querySelector(".num-1");
-var y = document.querySelector(".num-1").innerHTML;
-var z = parseInt(y);
+var arr = [".num-1", ".num-2", ".num-3"];
 
-function add1() {
-    x.innerText = z++;
+function add1(num) {
+    var x = document.querySelector(arr[num]);
+    var y = document.querySelector(arr[num]).innerHTML;
+    var z = parseInt(y);
 
-}
-
-var x2 = document.querySelector(".num-2");
-var y2 = document.querySelector(".num-2").innerHTML;
-var z2 = parseInt(y2);
-
-function add2() {
-    x2.innerText = z2++;
-
-}
-
-var x3 = document.querySelector(".num-3");
-var y3 = document.querySelector(".num-3").innerHTML;
-var z3 = parseInt(y3);
-
-function add3() {
-    x3.innerText = z3++;
-}
-
+    x.innerText = z + 1;
+} 
