@@ -12,9 +12,9 @@
         <nav>
             <h1>DojoWeather</h1>
             <div class="city-names">
-                <button>Burbank</button>
-                <button>Chicago</button>
-                <button>Dallas</button>
+                <button onclick="load()">Burbank</button>
+                <button onclick="load()">Chicago</button>
+                <button onclick="load()">Dallas</button>
             </div>
         </nav>
         <div class="container">
@@ -22,9 +22,9 @@
                 <h2>San Jose</h2>
                 <div class="temp-change">
                     <span>show temperature in</span>
-                    <select>
-                        <option>°C</option>
-                        <option>°F</option>
+                    <select onchange="tempSwitch()">
+                        <option class="celsius">°C</option>
+                        <option class="fahrenhit">°F</option>
                     </select>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="popup">
+            <div id="popup">
                 <div class="popup-content">
                     <img src="assets/cookie.png">
                     <div class="popup-text">
@@ -83,7 +83,7 @@
                             media features and to analyse our traffice <a href="#">Read more...</a>
                         </span>
                     </div>
-                    <button class="cookie-button">I Accept</button>
+                    <button onclick="hideMe()" class="cookie-button" >I Accept</button>
                 </div>
             </div>
         </div>

@@ -112,20 +112,21 @@ h6 {
     margin-bottom: 10px;
 }
 
-.popup {
+#popup {
     padding: 20px;
     position: fixed;
     bottom: 25px;
     width: 74.75%;
     height: 175px;
     border: 5px solid black;
+    display: block;
 }
 
 .popup-content {
     display: flex;
 }
 
-.popup img {
+#popup img {
     width: 170px;
     margin: 0 30px 0 0;
 }
@@ -139,7 +140,7 @@ h5 {
     width: 60%;
 }
 
-.popup button {
+#popup button {
     height: 50px;
 }
 
