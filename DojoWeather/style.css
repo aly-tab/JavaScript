@@ -116,10 +116,11 @@ h6 {
     padding: 20px;
     position: fixed;
     bottom: 25px;
-    width: 74.75%;
+    width: 74.9%;
     height: 175px;
     border: 5px solid black;
     display: block;
+    background-color: white;
 }
 
 .popup-content {
@@ -141,7 +142,7 @@ h5 {
 }
 
 #popup button {
-    height: 50px;
+    height: 60px;
 }
 
 .cookie-button {
